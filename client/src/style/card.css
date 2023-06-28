@@ -1,0 +1,291 @@
+.head{
+    float: left;
+    height: 600px;
+    width: 1250px;
+    background: rgb(119, 157, 6);
+    margin: 60px 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgb(91, 95, 91), -2px -2px 3px rgba(230, 228, 226, 0.377);
+}
+
+body{
+    background-color: rgb(134, 174, 15);
+    display: flex;
+}
+
+.menu{
+    float: left;
+    width: 200px;
+    height: fit-content;
+    /* background-color: rgba(255, 255, 255, 0.234); */
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 10px; */
+}
+
+.menu p{
+    background-color: rgba(253, 19, 128, 0.859);
+    align-items: start;
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 0 15px 15px ;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column; 
+    font-size: 20px;
+    margin-right: 40px;
+
+    
+}
+
+.dropdown a{
+    border: 2px solid black;
+    margin-bottom: 5px;
+    padding: 8px;
+    /* background-color: rgb(255, 255, 255); */
+    margin-left: 2px;
+    border-radius: 0 10px 10px;
+    text-decoration: none;
+    transition: margin-right .2s , transform .2s, background-color .5s ease-out;
+    color: rgba(251, 255, 0, 0.925);
+}
+
+.dropdown a:hover{
+    margin-right: -20px;
+    transform: scale(1, 1.1);
+    color: tomato;
+    background-color: black;
+}
+
+
+.container p{
+    /* transform: translate(150px, px); */
+    margin-left: 5px;
+    letter-spacing: 12px;
+    font-weight:900;
+    color: white;
+    font-size: 30px;
+    padding-top: 15px;
+    width: 250px;
+}
+
+.container p:focus{
+    color: black;
+}
+
+.container p:active{
+    color: black;
+}
+
+
+.container p:hover .dessert_name{
+    color: black;
+}
+
+.container{
+    /* display: inline-block; */
+    width: inherit;
+    height: 90px;
+    display: flex;
+    align-items: center;   
+}
+
+.container ul{
+    margin-left: 50px;   
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: red;
+    /* text */
+}
+
+.container ul li{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 20px;
+    color: red;
+    font-weight: 100;
+    letter-spacing: 2px;
+    background-color: rgba(255, 255, 0, 0.627);
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px; 
+    transition: transform 0.5s, background-color .7s ease-in-out; 
+}
+
+
+
+.container ul li:hover{
+    /* background-image: transparent; */
+    background: black;
+    transform: scale(1.2, 1.2);
+    border: 1px solid rgba(205, 72, 24, 0.659) ;
+    box-shadow: 1px 1px 5px rgba(148, 147, 146, 0.659), -.5px -.5px 5px rgba(190, 189, 188, 0.659);
+}
+
+
+
+
+.mid{
+    display: flex;
+    width: inherit;
+    align-items: center;
+}
+
+.midEle{
+    background: transparent;
+    /* width: 50%; */
+    height: 400px;
+}
+
+#id1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    width: fit-content;
+    color: white;
+    margin-top: 25px;
+}
+
+.dessert_name{
+    width: 320px;
+    font-size: 55px;
+    line-height: 45px;
+    letter-spacing: 6px;
+    margin-bottom: 0;
+    height: fit-content;
+    font-weight: 800;
+    font-style:unset;
+    
+}
+
+#tips{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.663);
+}
+
+#id2{
+    /* background: url(../img/Marshmallow.jpg); */
+    background-size: 100% 100%;
+    /* border-radius: 150px 0 0 150px; */
+    border-radius: 37% 63% 28% 72% / 50% 0% 100% 50%  ;
+    width: 900px;
+    margin-left: 95px;
+    margin-bottom: 50px;
+    transition: border-radius 1s, transform 1s;
+}
+
+#id2:hover{
+    transform: scale(1, 1);
+    border-radius: 0 0 0 150px;
+}
+
+#id1 hr{
+    background-color: white;
+    border-color: white;
+    width: 300px;
+    margin-left: 0;
+    
+}
+
+.bookings{
+    display: flex;
+    margin-top: 0px;
+    /* height: 60px; */
+}
+
+#add{
+    border-radius: 20px;
+    /* border: 2px solid rgba(255, 255, 255, 0.652); */
+    padding: 8px 14px 8px 14px;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}
+
+#remove{
+    border-radius: 20px;
+    /* border: 2px solid rgba(255, 255, 255, 0.652); */
+    padding: 8px 12px 8px 12px;
+    background-color: black;
+    color: red;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+
+
+#add:hover, #remove:hover{
+     color: green;
+}
+
+#displayItems{
+    border-radius: 4px;
+    /* border: 2px solid rgba(255, 255, 255, 0.653); */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    font-size: larger;
+    margin-left: 40px;
+    color : red;
+    background-color: black;
+    /* color: green; */
+} 
+
+#order{
+    width: fit-content;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+
+#order:hover{
+    background-color: rgb(226, 40, 7);
+}
+
+#price{
+    /* margin-top: 0; */
+    margin: 0;
+    margin-left: 60px;
+    font-size: larger;
+    /* border: 2px solid red; */
+    box-shadow: 2px 2px 2px rgb(51, 51, 51);
+    margin-left: 0;
+    padding: 10px;
+    padding-left: 24px;
+    border-radius: 15px;
+    background-color: green;
+}
+
+#price span{
+    margin-left : 140px;
+
+}
+.footer{
+    width: inherit;
+    height: 100px;
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+}
+
+
+
+
+
+
+
