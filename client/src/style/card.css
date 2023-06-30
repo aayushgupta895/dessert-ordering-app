@@ -62,15 +62,15 @@ body{
 }
 
 
-.container p{
-    /* transform: translate(150px, px); */
+.container p {
     margin-left: 5px;
     letter-spacing: 12px;
-    font-weight:900;
+    font-weight: 900;
     color: white;
     font-size: 30px;
     padding-top: 15px;
-    width: 250px;
+    width: 350px;
+    margin-left: 120px;
 }
 
 .container p:focus{
@@ -203,21 +203,28 @@ body{
     /* height: 60px; */
 }
 
-#add{
+#add {
     border-radius: 20px;
-    /* border: 2px solid rgba(255, 255, 255, 0.652); */
-    padding: 8px 14px 8px 14px;
+    /* padding: 4px 4px 0px 4px; */
     background-color: black;
     color: red;
     cursor: pointer;
+    height: 50px;
+    width: 100px;
+    padding: 0;
+    margin-top: 5px;
 }
 
 #remove{
     border-radius: 20px;
-    /* border: 2px solid rgba(255, 255, 255, 0.652); */
-    padding: 8px 12px 8px 12px;
+    /* padding: 4px 4px 0px 4px; */
     background-color: black;
     color: red;
+    /* cursor: pointer; */
+    height: 50px;
+    width: 100px;
+    padding: 0;
+    margin-top: 5px;
     margin-left: 40px;
     cursor: pointer;
 }

@@ -1,7 +1,129 @@
-
-
-.container p{
-    font-size: 15px;
-    color: red;
+.cartImage{
+    width: 180px;
+    height: 160px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 10px #403f3f;
 }
 
+.cartContainer{
+    margin: auto;
+    width: 50vw;
+    height: 200px;
+    background-color: rgb(134, 174, 15);
+    margin-left: 25vw;
+    border-radius: 25px;
+    box-shadow:  -20px -20px 60px #72940d,
+    20px 20px 60px #9ac811;
+    margin-bottom: 20px;
+}
+
+
+
+.dessertName {
+    width: 200px;
+    /* background: red; */
+    margin: 0;
+    height: 40px;
+    font-size: 35px;
+    padding-left: 60px;
+    padding-right: 200px;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    /* border: 2px solid black; */
+    /* margin-bottom: 5px; */
+    border-radius: 10px;
+    background: linear-gradient(315deg, #799d0e, #8fba10);
+    box-shadow:  -20px -20px 60px #72940d,
+             20px 20px 60px #9ac811
+}
+
+
+
+.increaseItem, .decreaseItem{
+    width: 40px;
+    height: 40px;
+    padding-left: 50px;
+    padding-right: 60px;
+    border-radius: 10px;
+    border: transparent;
+    font-size: 20px;
+    
+}
+
+
+
+.increaseItem {
+    margin-left: 90px;
+   
+}
+
+
+#quantity{
+    margin-top: 8px;
+    /* border: 2px solid; */
+    font-size: 20px;
+    height: 20px;
+}
+
+#pricing{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 8px;
+    padding-left: 60px;
+    padding-right: 45px;
+    border-radius: 15px;
+    background: rgb(248, 230, 26);
+box-shadow:  -20px 20px 60px #72940d,
+             20px -20px 60px #9ac811;
+}
+
+.payButton {
+    /* width: 0; */
+    height: 45px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 6px;
+    margin-left: 10px;
+    /* padding-top: 2px; */
+    /* padding-bottom: 2px; */
+    border: transparent;
+    border-radius: 15px;
+    /* width: 173.162px; */
+    font-size: 20px;
+    background: rgb(255, 132, 87);
+box-shadow:  -20px 20px 60px #72940d,
+             20px -20px 60px #9ac811;
+             transition: width 1s, height 2s;
+}
+
+.payButton:hover{
+    background :  red;
+}
+
+.finalPrice {
+    width: 170px;
+    background: red;
+    padding: 20px 100px;
+    padding-left: 130px;
+    font-size: 20px;
+    margin-left: 550px;
+    border-radius: 10px;
+}
+
+
+.finalOrder {
+    width: fit-content;
+    background: green;
+    padding: 20px 100px;
+    padding-left: 147px;
+    padding-right: 170px;
+    font-size: 20px;
+    margin-left: 550px;
+    border-radius: 10px;
+}

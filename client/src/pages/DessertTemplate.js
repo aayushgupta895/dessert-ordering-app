@@ -6,12 +6,12 @@ import Menu from '../components/Menu'
 
 function DessertTemplate(props) {
  
-  const [desProp, setDesProp] = useState('Brownie');
+  // const [desProp, setDesProp] = useState('Brownie');
 
   return (
     <div>
-      <Menu setDessert={setDesProp}/>
-      <Card dessert={desProp} price={props.price} setCartItems={props.setCartItems} cartItems={props.cartItems}/>
+      <Menu />
+      <Card />
     </div>
   );
 }

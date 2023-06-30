@@ -1,13 +1,14 @@
 // import React, { useState } from 'react'
 import '../style/card.css'
 import {Link} from 'react-router-dom'
+import { MyContext } from '../hooks/ContextProvider';
+import { useContext } from 'react';
 
-
-export default function menu(props) {
-  
-  const desserts = ['Brownie', 'Marshmallow', 'Chocochip', 'Donut', 'Truffles', 'Baklava Rolls', 'Ricotta', 'Syllabub', 'Cranachan', 'Bara Brith'];
+export default function Menu() {
+  const {setDessert} = useContext(MyContext)
+  const desserts = ['Brownie', 'Marshmallow', 'Chocochip', 'Donut', 'Truffles', 'Baklava', 'Ricotta', 'Syllabub', 'Cranachan', 'Bara Brith'];
   function currentDessert(des){
-    props.setDessert(des)
+    setDessert(des)
   }
   
   
