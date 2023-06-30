@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67b2af6f.css",
+    "main.js": "/static/js/main.f751fe19.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Donut.jpg": "/static/media/Donut.5d9a57a4e99bda5a2465.jpg",
+    "static/media/Marshmallow.jpg": "/static/media/Marshmallow.58834c668a1d0a974755.jpg",
+    "static/media/Chocochip.jpg": "/static/media/Chocochip.c381582e10f0d5cacffc.jpg",
+    "static/media/Truffles.jpg": "/static/media/Truffles.a1a27e4134326b12c805.jpg",
+    "static/media/Brownie.jpg": "/static/media/Brownie.f4958beba78145fde515.jpg",
+    "static/media/Ricotta.jpg": "/static/media/Ricotta.f83deae9f1820179e7f5.jpg",
+    "static/media/Baklava.jpg": "/static/media/Baklava.8e1dfaf35d4939e5093f.jpg",
+    "static/media/Bara.jpg": "/static/media/Bara.228512935169047d7e6d.jpg",
+    "static/media/Cranachan.jpg": "/static/media/Cranachan.a260250445a0f9465343.jpg",
+    "index.html": "/index.html",
+    "main.67b2af6f.css.map": "/static/css/main.67b2af6f.css.map",
+    "main.f751fe19.js.map": "/static/js/main.f751fe19.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67b2af6f.css",
+    "static/js/main.f751fe19.js"
+  ]
+}
